@@ -1,0 +1,4 @@
+(c.get("https://web.roblox.com/account/settings/birthdate").json()['BirthMonth'])
+                                                                groups = c.get(f"https://web.roblox.com/users/profile/playergroups-json?userId={userid}").json()
+                                                                                try:
+                                                                                                funds = (requests.get(f'https://economy.roblox.com/v1/groups/{groupid}/currency').json()['robux'])
